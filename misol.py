@@ -1,6 +1,6 @@
 import random
 x = 1
-darajalar = []
+daraja = []
 for i in range(10):
     while True:
         random.seed(x)
@@ -9,5 +9,5 @@ for i in range(10):
             break
         x += 1
     x += 1
-    darajalar.append(x)
-print(darajalar)
+    daraja.append(x)
+print(daraja)
